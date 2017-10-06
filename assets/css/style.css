@@ -1,0 +1,793 @@
+/* 
+Template Name: Factorysite;
+*/
+
+
+/**************************** 
+CSS INDEX
+
+BASE CSS
+BACKGROUND IMAGE CSS
+TOP BAR AREA CSS
+HEADER AREA CSS
+HERO AREA CSS
+SERVICE AREA CSS
+ABOUT AREA CSS
+CTA AREA CSS
+PROJECT AREA CSS
+TEAM AREA CSS
+LOGO CAROUSEL CSS
+FOOTER AREA CSS
+****************************/
+
+
+/**************************** 
+BASE CSS
+****************************/
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Hairline.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Thin.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Heavy.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    color: #626262;
+    line-height: 1.714;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.section-margin-top {
+    margin-top: 100px;
+}
+
+
+/**************************** 
+BACKGROUND IMAGE CSS
+****************************/
+
+.slide-bg-1 {
+    background-image: url("../img/banner-1.jpg");
+}
+
+.service-box-bg-1 {
+    background-image: url("../img/service-1.jpg");
+}
+
+.service-box-bg-2 {
+    background-image: url("../img/service-2.jpg");
+}
+
+.service-box-bg-3 {
+    background-image: url("../img/service-3.jpg");
+}
+
+
+/**************************** 
+TOP BAR AREA CSS
+****************************/
+
+.top-bar-area {
+    background: #0b0b0b;
+    color: #f5f3f3;
+}
+
+.top-bar-left-info,
+.top-bar-right-info {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.top-bar-left-info i.icofont,
+.top-bar-right-info i.icofont {
+    color: #fc721e;
+}
+
+.social-icon {
+    display: inline-block;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+.social-icon li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #f5f3f3;
+    text-align: center;
+    color: #f5f3f3;
+    line-height: 31px;
+    font-size: 15px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.top-bar-left-info {
+    padding-top: 3px;
+}
+
+.social-icon li a:hover {
+    background: #fc721e;
+    border-color: #fc721e;
+}
+
+.top-bar-area {
+    padding: 12px 0;
+}
+
+
+/**************************** 
+HEADER AREA CSS
+****************************/
+
+.logo img {
+    max-height: 46px;
+}
+
+.logo a {
+    transition: .3s;
+}
+
+.logo a:hover {
+    opacity: .7;
+}
+
+.header-area {
+    background: #f5f3f3;
+    padding: 20px 0;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    color: #0b0b0b;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px 0px;
+    display: block;
+    transition: .3s;
+    border: 1px solid #f5f3f3;
+    margin-left: 40px;
+    position: relative;
+}
+
+.mainmenu li a::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #f5f3f3;
+    content: "";
+    transition: .3s;
+}
+
+.mainmenu li a:hover::after {
+    width: 100%;
+    background: #fc721e;
+}
+
+
+/**************************** 
+HERO AREA CSS
+****************************/
+
+.single-slide-item {
+    height: 700px;
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.slide-item-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.single-slide-item::after {
+    position: absolute;
+    opacity: .8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #050505;
+    content: "";
+    z-index: -1;
+}
+
+.slide-item-wrapper h2 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+.boxed-btn,
+.bordered-btn {
+    display: inline-block;
+    background: #fc721e;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 34px;
+    margin-top: 30px;
+    border-radius: 3px;
+    transition: .3s;
+    border: 1px solid #fc721e;
+}
+
+.boxed-btn:hover {
+    background: none;
+    color: #fc721e;
+}
+
+.bordered-btn {
+    background: none;
+    border: 1px solid #fff;
+}
+
+.bordered-btn:hover {
+    background: #fff;
+    color: #050505;
+}
+
+.homepage-slides .owl-dots {
+    position: absolute;
+    left: 120px;
+    bottom: 60px;
+    width: 100%;
+}
+
+.homepage-slides .owl-dots div {
+    background: #fff;
+    width: 2px;
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.homepage-slides .owl-dots div.active {
+    background: #fc721e;
+    height: 34px;
+}
+
+
+/**************************** 
+SERVICE AREA CSS
+****************************/
+
+.section-heading {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.single-service-box {
+    border: 1px solid #ebebeb;
+    text-align: center;
+    transition: .3s;
+}
+
+.service-box-bg {
+	background-color: #ddd none repeat scroll 0 0;
+	height: 200px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.service-box-bg h2 {
+    background: #fc721e none repeat scroll 0 0;
+    bottom: -35px;
+    color: #fff;
+    font-size: 20px;
+    left: 10%;
+    padding: 10px;
+    position: absolute;
+    width: 80%;
+}
+
+.service-box-content {
+    padding: 50px 20px 20px;
+}
+
+.service-box-content p {
+    margin: 0;
+}
+
+.service-readmore {
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.service-readmore:hover {
+    color: #fc721e;
+}
+
+.single-service-box:hover {
+    box-shadow: 0 0 5px #8F8F8F;
+}
+
+
+/**************************** 
+ABOUT AREA CSS
+****************************/
+
+.about-image {
+    position: relative;
+    z-index: 1;
+}
+
+.about-image::after,
+.about-image::before {
+    position: absolute;
+    left: -1px;
+    top: 15%;
+    width: 3px;
+    height: 70%;
+    background: #fc721e;
+    content: "";
+}
+
+.about-image::before {
+    left: auto;
+    right: -1px;
+}
+
+.about-text {
+    display: table;
+    width: 100%;
+    height: 439px;
+}
+
+.about-text-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.9;
+}
+
+.about-text-wrap h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #0d0c0c;
+    margin-bottom: 25px;
+}
+
+
+/**************************** 
+CTA AREA CSS
+****************************/
+
+.cta-area {
+    background: #fc721e;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.cta-area h3 {
+    font-size: 22px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.cta-area .boxed-btn {
+    background: #fff;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 12px 15px;
+    margin: 0;
+    border: none;
+}
+
+.cta-area .boxed-btn:hover {
+    background: #0c0c0c;
+    color: #fff;
+}
+
+.cta-area .col-md-2 {
+    padding-left: 0;
+}
+
+
+/**************************** 
+PROJECT AREA CSS
+****************************/
+
+.single-project-box {
+    margin-bottom: 60px;
+}
+
+.project-image {
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+}
+
+.project-image:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background: #000;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.project-image:hover::after {
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+
+.project-text {
+    display: table;
+    width: 100%;
+    height: 268px;
+}
+
+.project-text-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    color: #333;
+}
+
+.view-project {
+    color: #333;
+    font-weight: 700;
+    display: inline-block;
+    transition: .3s;
+}
+
+.view-project:hover,
+.project-text-wrap h3:hover {
+    color: #fc721e;
+}
+
+.project-text-wrap h3 {
+    transition: .3s;
+}
+
+
+/**************************** 
+TEAM AREA CSS
+****************************/
+
+.team-image {
+    position: relative;
+    z-index: 1;
+}
+
+.team-image:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background: #fc721e;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.team-image:hover:after {
+    opacity: .7;
+    height: 100%;
+    visibility: visible;
+}
+
+.team-content {
+    text-align: center;
+    color: #333;
+    border: 1px solid #dddbdb;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.team-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.team-social-links a {
+    display: inline-block;
+    color: #222;
+    border: 1px solid #222;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 17px;
+    margin: 0 2px;
+    margin-top: 12px;
+    transition: .3s;
+}
+
+.team-social-links a:hover {
+    color: #fc721e;
+    border-color: #fc721e;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+
+/**************************** 
+LOGO CAROUSEL CSS 
+****************************/
+
+.partner-list {
+    border-top: 1px solid #d7d5d5;
+    border-bottom: 1px solid #d7d5d5;
+}
+
+.single-logo-item {
+    display: table;
+    height: 100px;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.logo-item-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 40px;
+}
+
+.single-logo-item:hover {
+    opacity: 1;
+}
+
+
+/**************************** 
+FOOTER AREA CSS
+****************************/
+
+.footer-area {
+    background: #0c0c0c;
+    padding-top: 100px;
+}
+
+.footer-area,
+.footer-area a {
+    color: #8e8c8c;
+    font-size: 15px;
+}
+
+.footer-area h3 {
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-area h3:after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 55px;
+    height: 1px;
+    background: #fc721e;
+    content: "";
+}
+
+.footer-area .logo {
+    margin: 40px 0 30px;
+}
+
+.footer-area .social-icon li a {
+    margin-right: 10px;
+}
+
+.nav-link p {
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+    padding-left: 40px;
+}
+
+.nav-link p i.icofont {
+    position: absolute;
+    left: -4px;
+    top: 5px;
+}
+
+.nav-link p:hover,
+.nav-link a:hover {
+    color: #fc721e;
+}
+
+.nav-link a {
+    transition: .3s;
+}
+
+.address i.icofont {
+    color: #fc721e;
+    margin-right: 10px;
+}
+
+.address {
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.date {
+    color: #686767;
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-top: -5px;
+}
+
+.email-form {
+    position: relative;
+    z-index: 1;
+    margin-top: 55px;
+}
+
+.email-form input[type=email] {
+    border: none;
+    background: #222222;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 98%;
+}
+
+.email-form button[type=submit] {
+    background: none;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    top: -28%;
+}
+
+.copy-right-area {
+    border-top: 1px solid #403f3f;
+    margin-top: 60px;
+    padding: 30px 0;
+    font-weight: 300;
+}
